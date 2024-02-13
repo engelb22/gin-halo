@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 160px 0px 0px 460px;
+  background-color: rgb(0, 0, 75);
+}
+
+p {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 75);
+  color: #ff27fb;
+  font-size: 100px;
+  height: 160px;
+  z-index: 1;
+  border-bottom: 1px solid rgb(74, 74, 176);
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.sidebar {
+  position: fixed;
+  top: 160px;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  background-color: rgb(0, 0, 75);
+  padding-left: 200px;
+  padding-right: 40px;
+  color: #ff27fb;
+}
+
+.sidebar > div {
+  padding-top: 15px;
+  border-left: 1px solid rgb(74, 74, 176);
+  border-right: 1px solid rgb(74, 74, 176);
+}
+
+.sidebar p {
+  display: inline-block;
+  margin: 10px 0px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.favorites {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.favorites:hover {
+  background-color: rgb(1, 1, 155);
+}
+
+.favorites > p {
+  text-decoration: underline;
+}
+
+button {
+  background-color: rgba(0, 0, 75, 0);
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 12px;
+  margin-right: 3px;
+}
+
+button:hover {
+  background-color: rgb(52, 52, 165);
+}
+
+.drink {
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.drink:hover {
+  background-color: rgb(1, 1, 155);
+}
+
+.fave {
+  background-color: rgba(27, 69, 254, 0.619);
+}
+
+select {
+  background-color: rgb(151, 213, 255);
+  font-family: "GFS Didot", serif;
+  border: none;
+  padding: 5px 45px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+img {
+  height: 320px;
+  width: 300px;
+  object-fit: cover;
+  margin-left: 80px;
+  padding-top: 55px;
+}
+
+.shown {
+  background-color: #00035e;
+}
+
+.main {
+  background-color: rgb(0, 0, 75);
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  padding-right: 200px;
+}
+
+.main > div > p {
+  font-size: 25px;
+}
+
+.main > div > .name {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin: 40px 0px;
+}
+
+li {
+  font-size: 25px;
+}
